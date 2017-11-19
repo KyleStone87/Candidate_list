@@ -1,4 +1,57 @@
-#star {
-    BORDER-style: solid;
-    border-color: green;
+#CreateCandidate {
+    flex: 1;
+    text-align: center;
+}
+#NewCandidate{
+    border: none;
+    box-shadow: 0px 1px grey;
+    color: grey;
+    width: 200px;
+}
+#NewCandidate:focus{
+    color: black;
+}
+h1{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#add{
+    color: white;
+    background: blue;
+    font-size: 16px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+}
+#List {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    display: flex;
+    width: 700px;
+}
+button{
+    border-radius: 5px;
+    background-color: white;
+    width: 80px;
+    height: 35px;
+}
+tr:hover{
+    background-color: gainsboro;
+}
+td{
+    padding-bottom: 5px;
+    padding-right: 5px;
+    font-size: 16px;
+}
+table{
+    margin-top: 20px;
+    align-self: center;
+}
+.name, .likes{
+    text-align: left;
 }
